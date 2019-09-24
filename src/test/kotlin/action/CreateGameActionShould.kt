@@ -15,5 +15,4 @@ internal class CreateGameActionShould {
 
         assertEquals(inMemoryGames.getById(gameId), Game(gameId))
     }
-
 }

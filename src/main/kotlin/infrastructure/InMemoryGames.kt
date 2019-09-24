@@ -4,8 +4,6 @@ import domain.Game
 import domain.GameId
 
 class InMemoryGames : Games {
-
-
     val games = mutableListOf<Game>()
     override fun add(game: Game) {
         games.add(game)
@@ -19,6 +17,4 @@ class InMemoryGames : Games {
     override fun nextId(): GameId {
         return GameId.generate()
     }
-
-
 }
