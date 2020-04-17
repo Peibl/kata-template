@@ -1,1 +1,1 @@
-Kata
+Template magico para katas
